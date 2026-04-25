@@ -1889,7 +1889,7 @@ function oddzielenie_trialiRoutineBegin(snapshot) {
     oddzielenie_trialiMaxDurationReached = false;
     // update component parameters for each repeat
     // Run 'Begin Routine' code from code
-    psychoJS.window.color = "dimgrey";
+    psychoJS.window.color = (-1,-1,-1);
     
     psychoJS.experiment.addData('oddzielenie_triali.started', globalClock.getTime());
     oddzielenie_trialiMaxDuration = null
